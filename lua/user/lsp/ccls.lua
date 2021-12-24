@@ -1,5 +1,4 @@
-local lspconfig = require'lspconfig'
-lspconfig.ccls.setup {
+return {
   init_options = {
     cache = {
       directory = ".ccls-cache";
