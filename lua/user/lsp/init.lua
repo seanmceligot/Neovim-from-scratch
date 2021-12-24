@@ -17,3 +17,5 @@ require "user.lsp.rust_analyzer"
 lspconfig.rust_analyzer.setup{ on_attach = lsp_handlers.on_attach }
 require "user.lsp.ccls"
 lspconfig.ccls.setup{ on_attach = lsp_handlers.on_attach }
+lspconfig.bashls.setup{}
+
